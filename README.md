@@ -8,6 +8,7 @@ git init
 ls -la "visualiza o diretório oculto .git"
 ```
 2. Para ELIMINAR A PASTA do controle de versão, excluir a pasta .git
+rm -rf .git
 
 3. Após CRIAR UM ARQUIVO do projeto dentro da pasta VERIFICAR O STATUS, digitando o comando...
 ```
@@ -117,4 +118,9 @@ git branch -a
 27. Para clonar outro branch...
 ```
 git checkout -b <nome Branch> origin/<nome do branch no github>
+```
+
+28. Para dar fazer o merge dos projetos com stories diferentes
+```
+git pull origin master --allow-unrelated-histories
 ```
