@@ -1,0 +1,2 @@
+print("Outroarquivo.")
+print(" alo ")
