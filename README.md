@@ -93,10 +93,14 @@ git remote add origin https://github.com/ibsem/interpolacaoLinear.git
 git push -u origin master
 ```
 22. Para BAIXAR O PROJETO digite...
+... se o projeto ja estiver criado localmente...
 ```
 git pull master <url>
-ou... git clone <url> 
 ```
+... na primeira vez...
+```
+ou... git clone <url> 
+```  
 23. Para atualizar o projeto no github...
 ```
 git push --set-upstream origin master
