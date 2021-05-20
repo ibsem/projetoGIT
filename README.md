@@ -20,7 +20,8 @@ Então, aparece o arquivo criado sob o estágio UNTRACKED FILE, ainda fora contr
 ```
 git add <nome do arquivo> ou . "...para todos os arquivos da pasta"
 ```
-O estágio que o arquivo se encontra agora é o CHANGE TO BE COMMITED ou staging
+O estágio que o arquivo se encontra agora é o CHANGE TO BE COMMITED ou staging...
+
 5. Para COMITAR o arquivo, digite o comando...
 ```
 git commit -m "Meu primeiro Commit"
@@ -97,7 +98,7 @@ git push -u origin master
 ```
 git pull master <url>
 ```
-... na primeira vez...
+... se o projeto NÃO foi criado localmente pelo comando git init...
 ```
 ou... git clone <url> 
 ```  
@@ -124,7 +125,7 @@ git branch -a
 git checkout -b <nome Branch> origin/<nome do branch no github>
 ```
 
-28. Para dar fazer o merge dos projetos com stories diferentes
+28. Para fazer o merge dos projetos com stories diferentes
 ```
 git pull origin master --allow-unrelated-histories
 ```
