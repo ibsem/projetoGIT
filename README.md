@@ -5,7 +5,7 @@
 1. Para INICIALIZAR uma pasta no GIT, entrar na pasta do projeto e digitar...
 ```
 git init
-ls -la "visualiza o diretório oculto .git"
+ls -la "visualiza o diretório oculto .git" (para o MAC) - pesquisar o mesmo comando para o windows
 ```
 2. Para ELIMINAR A PASTA do controle de versão, excluir a pasta .git
 rm -rf .git
