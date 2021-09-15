@@ -129,3 +129,9 @@ git checkout -b <nome Branch> origin/<nome do branch no github>
 ```
 git pull origin master --allow-unrelated-histories
 ```
+20. Para setar o usuario no GIT use os comandos abaixo
+
+```
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+```
