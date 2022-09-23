@@ -91,7 +91,8 @@ Copiar os dados e colar no github (administraçao da conta>>criar chave publica)
 21. Para CRIAR UM REPOSITÓRIO REMOTO NO GITHUB e iniciar localmente a criaçao do branch e dos arquivos não utilizar a opção do read-me...
 ```
 git remote add origin https://github.com/ibsem/interpolacaoLinear.git
-git push -u origin master
+git branch -M main
+git push -u origin main
 ```
 22. Para BAIXAR O PROJETO digite...
 ... se o projeto ja estiver criado localmente...
